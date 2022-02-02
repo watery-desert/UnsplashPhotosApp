@@ -21,11 +21,11 @@ struct PhotoTile: View {
                 ProgressView()
                     .frame(width: deviceWidth/2.0, height: 250)
             case .failure:
-                EmptyView()
-//            https://developer.apple.com/forums/thread/682498
-//                Image(systemName: "exclamationmark.triangle")
-//                    .padding()
-//                    .font(.largeTitle)
+                
+// issue with AsyncImage --> https://developer.apple.com/forums/thread/682498
+                Image(systemName: "exclamationmark.triangle")
+                    .padding()
+                    .font(.largeTitle)
             case .success(let image):
                 NavigationLink {
                     PhotoView(photo: photo)
