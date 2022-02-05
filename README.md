@@ -11,6 +11,7 @@
 
 ## Features
 
+✅ Used MVVM
 ✅ Nested JSON serialization\
 ✅ Combine framework\
 ✅ Staggered grid with Pagination\
