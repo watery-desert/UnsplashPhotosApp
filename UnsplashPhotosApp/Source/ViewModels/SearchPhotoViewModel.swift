@@ -48,7 +48,7 @@ class SearchPhotoViewModel : ObservableObject {
             state = .failed(URLError(URLError.badURL))
             return
         }
-        let photoService = PhotoService<QueryPhoto>(url)
+        let photoService = APIService<QueryPhoto>(url)
         
         photoService.getData()
             .sink { [weak self]  completion in

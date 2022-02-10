@@ -31,8 +31,7 @@
 		E23BCD6127A994790072C847 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BCD4B27A994790072C847 /* ErrorView.swift */; };
 		E23BCD6227A994790072C847 /* RecentPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BCD4D27A994790072C847 /* RecentPhotosView.swift */; };
 		E23BCD6327A994790072C847 /* TopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BCD4E27A994790072C847 /* TopicRow.swift */; };
-		E2B46C2727AA096F006A747B /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B46C2627AA096F006A747B /* PhotosService.swift */; };
-		E2B46C2B27AA0EB0006A747B /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B46C2A27AA0EB0006A747B /* PhotoService.swift */; };
+		E2B46C2B27AA0EB0006A747B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B46C2A27AA0EB0006A747B /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,8 +62,7 @@
 		E23BCD4E27A994790072C847 /* TopicRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicRow.swift; sourceTree = "<group>"; };
 		E23BCD6527A996310072C847 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E23BCD6627A9999B0072C847 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E2B46C2627AA096F006A747B /* PhotosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosService.swift; sourceTree = "<group>"; };
-		E2B46C2A27AA0EB0006A747B /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		E2B46C2A27AA0EB0006A747B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,8 +209,7 @@
 		E23BCD6727A9A7ED0072C847 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				E2B46C2627AA096F006A747B /* PhotosService.swift */,
-				E2B46C2A27AA0EB0006A747B /* PhotoService.swift */,
+				E2B46C2A27AA0EB0006A747B /* APIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -296,12 +293,11 @@
 				E23BCD5227A994790072C847 /* SearchPhotoViewModel.swift in Sources */,
 				E23BCD5F27A994790072C847 /* StaggeredPhotosView.swift in Sources */,
 				E23BCD5727A994790072C847 /* Urls.swift in Sources */,
-				E2B46C2727AA096F006A747B /* PhotosService.swift in Sources */,
 				E23BCD5E27A994790072C847 /* PhotoTile.swift in Sources */,
 				E23BCD5027A994790072C847 /* DownloadPhotoViewModel.swift in Sources */,
 				E23BCD6327A994790072C847 /* TopicRow.swift in Sources */,
 				E23BCD4F27A994790072C847 /* TopicViewModel.swift in Sources */,
-				E2B46C2B27AA0EB0006A747B /* PhotoService.swift in Sources */,
+				E2B46C2B27AA0EB0006A747B /* APIService.swift in Sources */,
 				E23BCD5927A994790072C847 /* Extensions.swift in Sources */,
 				E23BCD6027A994790072C847 /* LoadingView.swift in Sources */,
 				E23BCD2527A994360072C847 /* UnsplashPhotosAppApp.swift in Sources */,

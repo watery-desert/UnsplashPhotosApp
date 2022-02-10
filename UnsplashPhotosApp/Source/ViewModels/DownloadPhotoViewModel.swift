@@ -32,7 +32,7 @@ class DownloadPhotoViewModel: ObservableObject {
             return
         }
         
-        let photoService = PhotoService<DownloadPhoto>(url)
+        let photoService = APIService<DownloadPhoto>(url)
         
         photoService.getData()
             .sink { [weak self]  completion in

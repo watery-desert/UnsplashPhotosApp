@@ -33,7 +33,7 @@ class PhotoViewModel : ObservableObject {
             return
         }
         
-        let photosService = PhotosService<Photo>(url)
+        let photosService = APIService<[Photo]>(url)
  
         photosService.getData()
             .delay(for: 0.8, scheduler: RunLoop.main)

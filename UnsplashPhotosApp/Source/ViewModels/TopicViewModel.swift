@@ -32,7 +32,7 @@ class TopicViewModel: ObservableObject {
             return
         }
         
-        let photosService = PhotosService<Topic>(url)
+        let photosService = APIService<[Topic]>(url)
         
         photosService.getData()
             .sink { [weak self] completion in

@@ -56,6 +56,27 @@
 </table>
 
 
+## Known issue
+
+AsyncImage has an issue loading image 
+https://developer.apple.com/forums/thread/682498
+if you don't want to see the error then 
+
+Replace this 👇
+
+```swift
+Image(systemName: "exclamationmark.triangle")
+    .padding()
+    .font(.largeTitle)
+```
+with this 👇
+
+```swift
+EmptyView()
+```
+    
+                    
+
 
 ## Illustration Credit
 
