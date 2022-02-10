@@ -64,7 +64,7 @@ if you don't want to see the error then
 
 Replace this 👇
 
-[https://github.com/watery-desert/UnsplashPhotosApp/blob/c48a5149cf941d557b7600532d5057a1b58dda0d/UnsplashPhotosApp/Source/Views/HelperViews/PhotoTile.swift#L26] 
+https://github.com/watery-desert/UnsplashPhotosApp/blob/c48a5149cf941d557b7600532d5057a1b58dda0d/UnsplashPhotosApp/Source/Views/HelperViews/PhotoTile.swift#L26
 
 ```swift
 Image(systemName: "exclamationmark.triangle")
