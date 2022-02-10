@@ -45,7 +45,7 @@ struct RecentPhotosView: View {
             
     }
     
-    func heading(_ text: String) -> some View {
+    private func heading(_ text: String) -> some View {
         Text(text)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(16)

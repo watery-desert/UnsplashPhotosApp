@@ -76,7 +76,7 @@ struct PhotoView: View {
     }
     
     @ViewBuilder
-    func getIcon(state: DownloadPhotoViewModel.State) -> some View {
+    private func getIcon(state: DownloadPhotoViewModel.State) -> some View {
         switch state {
         case .idle:
              Image(systemName: "arrow.down")
@@ -89,7 +89,7 @@ struct PhotoView: View {
         }
     }
     
-    func getColor(state: DownloadPhotoViewModel.State) -> Color {
+    private func getColor(state: DownloadPhotoViewModel.State) -> Color {
         switch state {
         case .idle:
             return Color.gray

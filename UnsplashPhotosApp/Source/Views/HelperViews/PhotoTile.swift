@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PhotoTile: View {
     
-    var photo: Photo
+    let photo: Photo
     private let deviceWidth = UIScreen.main.bounds.width
     @State private var isActive = false
 

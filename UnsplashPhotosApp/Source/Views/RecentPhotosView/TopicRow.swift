@@ -42,7 +42,7 @@ struct TopicRow: View {
         
     }
         
-    func buildImageView(_ url: String) -> some View {
+    private func buildImageView(_ url: String) -> some View {
         AsyncImage(url: URL(string: url)) { imagePhase in
             switch imagePhase {
             case .empty:
