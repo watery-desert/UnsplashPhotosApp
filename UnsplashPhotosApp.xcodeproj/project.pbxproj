@@ -119,7 +119,7 @@
 				E23BCD6727A9A7ED0072C847 /* Services */,
 				E23BCD6427A995600072C847 /* Utility */,
 				E23BCD3327A994790072C847 /* ViewModels */,
-				E23BCD3927A994790072C847 /* Models */,
+				E23BCD3927A994790072C847 /* Models1 */,
 				E23BCD4127A994790072C847 /* Views */,
 			);
 			path = Source;
@@ -136,7 +136,7 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		E23BCD3927A994790072C847 /* Models */ = {
+		E23BCD3927A994790072C847 /* Models1 */ = {
 			isa = PBXGroup;
 			children = (
 				E23BCD3A27A994790072C847 /* Photo.swift */,
@@ -145,7 +145,7 @@
 				E23BCD3D27A994790072C847 /* Urls.swift */,
 				E23BCD3E27A994790072C847 /* Topic.swift */,
 			);
-			path = Models;
+			path = Models1;
 			sourceTree = "<group>";
 		};
 		E23BCD4127A994790072C847 /* Views */ = {
